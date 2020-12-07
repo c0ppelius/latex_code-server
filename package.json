@@ -1270,6 +1270,16 @@
           "default": "0",
           "markdownDescription": "Define the port to listen on for communicating with the internal viewer. The default value \"0\" means the port is chosen randomly by the application."
         },
+        "latex-workshop.viewer.pdf.internal.code-server": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "If using Latex Workshop with Code-Server, enable this and set your URL below."
+        },
+        "latex-workshop.viewer.pdf.internal.code-server_url": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "URL of your Code-Server installation. Currently only utilized if codeserver option is selected."
+        },
         "latex-workshop.view.pdf.internal.synctex.keybinding": {
           "type": "string",
           "default": "ctrl-click",
