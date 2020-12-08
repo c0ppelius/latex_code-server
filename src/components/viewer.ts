@@ -273,7 +273,7 @@ export class Viewer {
         // const url = `http://localhost:${this.extension.server.port}/viewer.html?incode=1&file=${encodePathWithPrefix(pdfFile)}`
         const rebroadcast: boolean = this.getKeyboardEventConfig()
         return `
-        <!DOCTYPE html><html><head><meta http-equiv="Content-Security-Policy" content="default-src ${this.extension.server.url} http://localhost:* http://127.0.0.1:*; script-src 'unsafe-inline'; style-src 'unsafe-inline';"></head>
+        <!DOCTYPE html><html><head></head>
             <body><iframe id="preview-panel" class="preview-panel" src="${url}" style="position:absolute; border: none; left: 0; top: 0; width: 100%; height: 100%;">
             </iframe>
             <script>

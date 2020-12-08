@@ -1,0 +1,10 @@
+"latex-workshop.viewer.pdf.internal.code-server": {
+          "type": "boolean",
+          "default": false,
+          "markdownDescription": "If using Latex Workshop with Code-Server, enable this and set your URL below."
+        },
+        "latex-workshop.viewer.pdf.internal.code-server_url": {
+          "type": "string",
+          "default": "",
+          "markdownDescription": "URL of your Code-Server installation. Currently only utilized if codeserver option is selected."
+        },
